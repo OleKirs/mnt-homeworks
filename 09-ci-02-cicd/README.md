@@ -90,7 +90,19 @@ OS name: "linux", version: "5.10.0-16-amd64", arch: "amd64", family: "unix"
 1. Меняем в `pom.xml` блок с зависимостями под наш артефакт из первого пункта задания для Nexus (java с версией 8_282)
 2. Запускаем команду `mvn package` в директории с `pom.xml`, ожидаем успешного окончания
 3. Проверяем директорию `~/.m2/repository/`, находим наш артефакт
+```shell
+root@deb11-test50:~/09-ci-02-cicd# ll ~/.m2/repository/netology/java/8_282/
+total 25760
+drwxr-xr-x 2 root root     4096 Aug  4 12:59 .
+drwxr-xr-x 3 root root     4096 Aug  4 12:59 ..
+-rw-r--r-- 1 root root 26355887 Aug  4 12:59 java-8_282-distrib.tar.gz
+-rw-r--r-- 1 root root       40 Aug  4 12:59 java-8_282-distrib.tar.gz.sha1
+-rw-r--r-- 1 root root      383 Aug  4 12:59 java-8_282.pom.lastUpdated
+-rw-r--r-- 1 root root      176 Aug  4 12:59 _remote.repositories
+```
 4. В ответе присылаем исправленный файл `pom.xml`
+  
+> Файл [pom.xml](imgs/pom.xml)
 
 ---
 
