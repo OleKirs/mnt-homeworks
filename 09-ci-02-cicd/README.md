@@ -22,6 +22,14 @@
 2. Скачиваем пакет sonar-scanner, который нам предлагает скачать сам sonarqube
 3. Делаем так, чтобы binary был доступен через вызов в shell (или меняем переменную PATH или любой другой удобный вам способ)
 4. Проверяем `sonar-scanner --version`
+```shell
+root@deb11-test50:~# sonar-scanner --version
+INFO: Scanner configuration file: /opt/sonar-scanner/conf/sonar-scanner.properties
+INFO: Project root configuration file: NONE
+INFO: SonarScanner 4.7.0.2747
+INFO: Java 11.0.14.1 Eclipse Adoptium (64-bit)
+INFO: Linux 5.10.0-16-amd64 amd64
+```
 5. Запускаем анализатор против кода из директории [example](./example) с дополнительным ключом `-Dsonar.coverage.exclusions=fail.py`
 6. Смотрим результат в интерфейсе
 7. Исправляем ошибки, которые он выявил(включая warnings)
