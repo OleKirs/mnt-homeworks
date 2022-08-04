@@ -73,6 +73,16 @@ INFO: Linux 5.10.0-16-amd64 amd64
 1. Скачиваем дистрибутив с [maven](https://maven.apache.org/download.cgi)
 2. Разархивируем, делаем так, чтобы binary был доступен через вызов в shell (или меняем переменную PATH или любой другой удобный вам способ)
 3. Проверяем `mvn --version`
+
+```shell
+root@deb11-test50:~# mvn --version
+Apache Maven 3.8.6 (84538c9988a25aec085021c365c560670ad80f63)
+Maven home: /opt/apache-maven
+Java version: 11.0.16, vendor: Debian, runtime: /usr/lib/jvm/java-11-openjdk-amd64
+Default locale: en_US, platform encoding: UTF-8
+OS name: "linux", version: "5.10.0-16-amd64", arch: "amd64", family: "unix"
+```
+
 4. Забираем директорию [mvn](./mvn) с pom
 
 ### Основная часть
