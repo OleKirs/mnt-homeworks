@@ -59,7 +59,12 @@ INFO: Linux 5.10.0-16-amd64 amd64
    5. type: tar.gz
 2. В него же загружаем такой же артефакт, но с version: 8_102
 3. Проверяем, что все файлы загрузились успешно
+
+![Рис.3 Nexus - загруженные файлы](./imgs/pic2.png "Nexus - загруженные файлы")
+
 4. В ответе присылаем файл `maven-metadata.xml` для этого артефекта
+
+> [maven-metadata.xml](imgs/maven-metadata.xml)
 
 ### Знакомство с Maven
 
