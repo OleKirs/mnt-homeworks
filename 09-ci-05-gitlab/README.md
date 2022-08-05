@@ -1,6 +1,6 @@
 # Домашнее задание к занятию "09.05 Gitlab"
 
-## Проект в Gitlab на Yandex Cloud - [https://kirs-corp.gitlab.yandexcloud.net/netology-devops/09-ci-05-gitlab.git](https://kirs-corp.gitlab.yandexcloud.net/netology-devops/09-ci-05-gitlab.git)
+## Проект в Gitlab на Yandex Cloud - [https://gitlab.v-tg.com/ok/09-ci-05-gitlab.git](https://gitlab.v-tg.com/ok/09-ci-05-gitlab.git)
 
 ## Подготовка к выполнению
 
