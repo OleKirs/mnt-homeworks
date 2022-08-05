@@ -1,6 +1,6 @@
 # Домашнее задание к занятию "09.05 Gitlab"
 > В связи с невозможностью пройти валидацию аккаунта на gitlab.com развернул проект в 'on-premise' gitlab на https://gitlab.v-tg.com 
-## Проект в Gitlab на Yandex Cloud - [https://gitlab.v-tg.com/ok/09-ci-05-gitlab.git](https://gitlab.v-tg.com/ok/09-ci-05-gitlab.git)
+## Проект в Gitlab на Yandex Cloud - [https://gitlab.v-tg.com/ok/09-ci-05-gitlab/-/tree/main](https://gitlab.v-tg.com/ok/09-ci-05-gitlab/-/tree/main)
 
 ## Подготовка к выполнению
 
