@@ -2,7 +2,7 @@
 > В связи с невозможностью пройти валидацию аккаунта на gitlab.com развернул проект в 'on-premise' gitlab на https://gitlab.v-tg.com   
 > пользователь: netology  
 > пароль: 6zeHzJfiZTkHe56  
-## Проект в Gitlab на Yandex Cloud - [https://gitlab.v-tg.com/ok/09-ci-05-gitlab/-/tree/main](https://gitlab.v-tg.com/ok/09-ci-05-gitlab/-/tree/main)
+## Проект в Gitlab - [https://gitlab.v-tg.com/ok/09-ci-05-gitlab/-/tree/main](https://gitlab.v-tg.com/ok/09-ci-05-gitlab/-/tree/main)
 
 ## Подготовка к выполнению
 
